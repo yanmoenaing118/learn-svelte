@@ -1,4 +1,6 @@
 <script>
+  import Nested from "./Nested.svelte";
+
   let fname = "";
   let lname = "";
   $: name = [fname, lname];
@@ -26,6 +28,9 @@
 </header>
 
 <main>
+  <section>
+    <Nested answer={10} />
+  </section>
   <section>
     <article>
       <p>
