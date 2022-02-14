@@ -1,14 +1,8 @@
 <script>
-  import MaxWidth from "./MaxWidth.svelte";
+  import Counter from "./Counter.svelte";
 </script>
 
-<header>
-  <!-- <MaxWidth> -->
-  <div>
-    <h1>Hello</h1>
-  </div>
-  <!-- </MaxWidth> -->
-</header>
+<Counter />
 
 <style>
 </style>
